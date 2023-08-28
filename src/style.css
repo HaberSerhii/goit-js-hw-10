@@ -1,5 +1,41 @@
+body {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.cat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.cats-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cat-temperament {
+  width: 600px;
+}
+.cat-name {
+  color: teal;
+}
+
 .breed-select {
-  width: 300px;
+  width: 600px;
+  height: 50px;
+  font-size: large;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border: 2px solid teal;
+  border-radius: 10px;
+}
+
+.cat-description {
+  width: 600px;
 }
 
 h1,
@@ -7,14 +43,10 @@ h2 {
   margin: 0;
 }
 
-.cat-info {
-  margin-top: 20px;
-  display: flex;
-  gap: 20px;
-}
-
 .temperament-span {
   font-weight: bold;
+  font-style: italic;
+  color: teal;
 }
 
 .loader {

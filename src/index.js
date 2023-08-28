@@ -73,8 +73,8 @@ function hiddenEl(el) {
 }
 
 function addCatInfoMarkup(catInfo, url, name, description, temperament) {
-  catInfo.innerHTML = `<img src="${url}" alt="cat ${name}" width='400'>
-      <div>
+  catInfo.innerHTML = `<img src="${url}" alt="cat ${name}" width='600' >
+      <div class="cats-info">
         <h2 class="cat-name">${name}</h2>
         <p class="cat-description">${description}</p>
         <p class="cat-temperament">Temperament: <span class="temperament-span">${temperament}</span></p>
